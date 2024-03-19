@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Durpin TM",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durpintm/namaste-react.git"
+  },
+  "keywords": [
+    "Namaste",
+    "react"
+  ],
+  "author": "Durpin TM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durpintm/namaste-react/issues"
+  },
+  "homepage": "https://github.com/durpintm/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

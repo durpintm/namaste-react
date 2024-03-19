@@ -1,0 +1,6 @@
+Bundler (like webpack, parcel, vite)
+=> packages the app properly so that it can be shipped to production
+
+Two types of package dependencies
+dev => development environment
+normal => used in production
