@@ -1,3 +1,6 @@
+ReactElement(Object) => HTML(Browser Understands)
+All html tags inside root will be replaced by React render() method, React will take control of everything inside root
+
 Bundler (like webpack, parcel, vite)
 => packages the app properly so that it can be shipped to production
 
@@ -23,3 +26,13 @@ node_modules
 => It serves as the central repository where all the packages (libraries or modules) that your project depends on are stored. 
 => Transitive dependencies -> A transitive dependency in software development is a module or library that your project depends on indirectly. It arises when a module your project directly depends on, in turn, relies on another module. This chain of dependencies can extend several levels deep.
 => We can regenerate node_modules through package.json and package-lock.json
+
+npm vs npx
+=> npx is used for executing the packages
+=> npm is primarily focused on package management, npx is designed to execute Node.js packages. They complement each other in the Node.js and JavaScript development workflow, with npm handling the broader aspects of package management and npx providing a convenient way to run packages and commands, especially for testing or running packages that are used infrequently.
+=> npm is used for managing packages in Node.js projects. It allows developers to install, update, and manage libraries and dependencies in their projects.
+=> npx is a package runner tool that comes with npm. It is designed to execute Node.js packages without requiring them to be installed globally. npx makes it easy to run any command-line tool or script that is part of a Node.js package, either from the local node_modules/.bin directory or directly from the npm registry.
+
+npm install -D parcel
+=> -D refers to dev dependency
+=> else it's a normal dependency
