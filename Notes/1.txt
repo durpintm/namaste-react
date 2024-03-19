@@ -4,3 +4,22 @@ Bundler (like webpack, parcel, vite)
 Two types of package dependencies
 dev => development environment
 normal => used in production
+
+Inside package.json in dependencies
+^ => it will upgrade the minor versions automatically
+~ => it will upgrade the major version automatically
+
+package.json
+=> has configuration of npm
+=> has ^ or ~ for packages and upgrades it when required
+
+package-lock.json
+=> keeps track of exact versions of all the dependencies that is being installed
+
+In summary, package.json provides a broad specification of dependencies and project information, while package-lock.json ensures that the exact version of every package is consistent across all installations. This distinction helps manage dependencies more effectively in development, testing, and production environments, minimizing "it works on my machine" issues.
+
+node_modules
+=> Kind of database that contains all the dependencies/packages
+=> It serves as the central repository where all the packages (libraries or modules) that your project depends on are stored. 
+=> Transitive dependencies -> A transitive dependency in software development is a module or library that your project depends on indirectly. It arises when a module your project directly depends on, in turn, relies on another module. This chain of dependencies can extend several levels deep.
+=> We can regenerate node_modules through package.json and package-lock.json
