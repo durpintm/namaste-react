@@ -1,0 +1,10 @@
+JSX 
+=> is not HTML inside JS
+=> HTML or XML like syntax
+=> JS engine does not understand JSX syntax
+=> Parcel transpiles the JSX code before it reaches the JS Engine
+=> It is a syntax extension for JavaScript, recommended by React, that allows you to write HTML-like syntax within JavaScript code. Although primarily associated with React, JSX can be used with other libraries too. It combines the power of JavaScript with the familiarity of HTML, enabling developers to create UI components with a declarative syntax.
+
+Babel
+=> Babel is a critical tool/compiler in modern web development, enabling developers to use tomorrow’s JavaScript language features today. It ensures that applications are compatible across different browsers and environments, making web development more about innovation and less about dealing with discrepancies in platform capabilities.
+=> Converts JSX code into React.createElement so that React can understand the code
