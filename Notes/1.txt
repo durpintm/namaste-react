@@ -3,6 +3,7 @@ All html tags inside root will be replaced by React render() method, React will 
 
 Bundler (like webpack, parcel, vite)
 => packages the app properly so that it can be shipped to production
+=> Bundlers are tools that compile, combine, and optimize resources and modules of a web project (like JavaScript, CSS, and HTML files) into a structure that can be efficiently served to browsers. 
 
 Two types of package dependencies
 dev => development environment
