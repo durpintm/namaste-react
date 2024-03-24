@@ -16,3 +16,6 @@ Types of components
 	 Class components are more traditional React components that are defined using ES6 classes. 
 => Function based components - new
 	 Functional components are JavaScript functions that return React elements. 
+
+
+Component Composition => Component inside a component
