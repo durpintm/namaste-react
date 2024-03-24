@@ -14,9 +14,16 @@ const fn = () => <h1>Hello Function</h1>;
 //   );
 // };
 
-const elm = <span>This is a react element</span>;
+const elm = <span>This is a react element </span>;
 
-const title = (
+// const title = (
+//   <h1 className="head" tabIndex="5">
+//     {elm}
+//     Namaste React using JSX 🚀
+//   </h1>
+// );
+
+const Title = () => (
   <h1 className="head" tabIndex="5">
     {elm}
     Namaste React using JSX 🚀
@@ -30,8 +37,12 @@ const number = 10000;
 const HeadingComponent = () => (
   <div className="container">
     {/* <h2>{number}</h2> */}
-    {/* <Title /> */}
-    {title}
+
+    {Title()}
+    <Title />
+    <Title></Title>
+
+    {/* {title} */}
     <h1>Namaste React from Functional Component</h1>
   </div>
 );
