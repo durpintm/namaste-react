@@ -6,6 +6,13 @@ JSX
 => attributes in JSX are written in camelCase
 => wrap JSX with () if you need to write JSX in multiple lines
 
+Parcel vs Vite vs Webpack
+Parcel, Vite, and Webpack are all popular tools used in modern web development for bundling files, transforming code, and optimizing applications.
+
+=> Webpack is best for large, complex applications where you need granular control over the build process.
+=> Parcel offers a great developer experience with zero configuration, making it ideal for smaller projects or for developers who prioritize ease of use.
+=> Vite combines the best of both worlds with its fast development server and optimized production builds, suitable for modern web applications that use components and ES modules.
+
 Babel
 => Babel is a critical tool/compiler in modern web development, enabling developers to use tomorrow’s JavaScript language features today. It ensures that applications are compatible across different browsers and environments, making web development more about innovation and less about dealing with discrepancies in platform capabilities.
 => Converts JSX code into React.createElement so that React can understand the code
